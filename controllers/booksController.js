@@ -3,7 +3,7 @@ var Book = require( '../models/book' );
 // Index
 exports.index = function( req, res, next ) {
   let locals = {
-    title: 'Books List'
+    title: "Netflix but for books...sorta...not really..."
   };
 
   Book.find()

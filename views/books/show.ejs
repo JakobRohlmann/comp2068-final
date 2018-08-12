@@ -2,7 +2,9 @@
 
 <section>
   <div>
-    <a href="/books/new">New Book</a>
+    <a href="/books/new" class="btn btn-primary">
+      New Book
+    </a>
   </div>
 
   <div class="row">
@@ -45,7 +47,7 @@
 
               <form action="/books/<%= book.id %>/delete" method="post"  onsubmit="return confirm('Are you sure you wish to delete this book from the records?');">
                 <input type="hidden" name="id" value="<%= book.id %>">
-                <button type="submit" class="btn btn-danger">DELETE</button>
+                <button type="submit" class="btn btn-primary">DELETE</button>
               </form>
             </div>
           </div>

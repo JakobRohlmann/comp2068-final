@@ -1,8 +1,28 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #5f6669; }
+
+h1 {
+  color: #af0003; }
 
 a {
-  color: #00B7FF; }
+  color: #af0003; }
+
+.btn-primary {
+  background-color: #af0003;
+  border: 2px solid #af0003;
+  color: #ffffff; }
+
+.btn-primary:hover {
+  background-color: #e50004;
+  border: 2px solid #e50004;
+  color: #ffffff; }
+
+.form-group {
+  color: #ffffff; }
+
+legend {
+  color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
